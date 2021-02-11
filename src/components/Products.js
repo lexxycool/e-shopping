@@ -5,8 +5,8 @@ import ProductScreen from '../screens/ProductScreen';
 //create an array of products
 
 const products = [
-    {id: 1, name: 'Shoes', description: 'Running Shoes', price: '$30' },
-    { id: 2, name: 'Macbook', description: 'Apple Macbook', price: '$55' },
+    {id: 1, name: 'Shoes', description: 'Running Shoes', price: '$30', image: 'https://hips.hearstapps.com/s3.amazonaws.com/images/cushion-shoes-7659-1584132587.jpg?crop=1.00xw:0.701xh;0,0.229xh' },
+    { id: 2, name: 'Macbook', description: 'Apple Macbook', price: '$55', image: 'https://www.bhphotovideo.com' },
 ];
 
 function Products() {
